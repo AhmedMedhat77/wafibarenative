@@ -1,22 +1,13 @@
 import React from 'react';
 
-import {
-  SafeAreaView,
-  StatusBar,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import {SafeAreaView} from 'react-native';
+import Login from './App/Screens/Login/Login';
+// import Login from './App/Screens/Login/Login';
 
 function App(): JSX.Element {
-  const isDarkMode = useColorScheme() === 'light';
-
   return (
     <SafeAreaView>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <View>
-        <Text>Main App</Text>
-      </View>
+      <Login />
     </SafeAreaView>
   );
 }
