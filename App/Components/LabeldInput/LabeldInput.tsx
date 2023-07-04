@@ -27,20 +27,20 @@ const LabeldInput = (props: InputProps): JSX.Element => {
 };
 const styles = StyleSheet.create<Styles>({
   inputContainer: {
-    width: '70%',
     marginBottom: 20,
+    width: '70%',
   },
   label: {
     color: COLORS.primary,
     fontSize: SIZES.medium,
-    marginBottom: 5,
-    fontWeight: '500',
+    marginBottom: SIZES.xSmall,
+    fontWeight: '600',
   },
   input: {
     borderWidth: 1,
     borderColor: COLORS.secondary,
     borderRadius: 5,
-    paddingHorizontal: 10,
+    paddingHorizontal: SIZES.small,
   },
 });
 export default LabeldInput;
