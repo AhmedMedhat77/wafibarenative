@@ -20,7 +20,7 @@ const styles = StyleSheet.create<Style>({
   text: {
     color: COLORS.primary,
     fontWeight: '600',
-    marginVertical: SIZES.large,
+    marginVertical: SIZES.small,
     textAlign: 'center',
   },
 });

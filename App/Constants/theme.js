@@ -26,6 +26,7 @@ const FONT = {
 const SIZES = {
   xSmall: normalised(10),
   small: normalised(12),
+  regular: normalised(14),
   medium: normalised(16),
   large: normalised(20),
   xLarge: normalised(24),

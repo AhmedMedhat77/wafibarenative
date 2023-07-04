@@ -5,6 +5,8 @@ import filter from '../Assets/icons/filter.png';
 import location from '../Assets/icons/location.png';
 import share from '../Assets/icons/share.png';
 import chevaronLeft from '../Assets/icons/chevron-left.png';
+import phoneDark from '../Assets/icons/darkphone.png';
+import darkEdit from '../Assets/icons/darkedit.png';
 
 export default {
   left,
@@ -14,4 +16,6 @@ export default {
   location,
   share,
   chevaronLeft,
+  phoneDark,
+  darkEdit,
 };
