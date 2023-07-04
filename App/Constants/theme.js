@@ -28,8 +28,8 @@ const SIZES = {
   small: normalised(12),
   regular: normalised(14),
   medium: normalised(16),
-  large: normalised(20),
-  xLarge: normalised(24),
+  large: normalised(18),
+  xLarge: normalised(20),
   xxLarge: normalised(32),
 };
 
